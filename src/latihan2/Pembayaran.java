@@ -1,4 +1,8 @@
 package latihan2;
 
-public class Pembayaran {
+public interface Pembayaran {
+    void prosesPembayaran(double jumlah);
+    String getMetodePembayaran();
 }
+
+
